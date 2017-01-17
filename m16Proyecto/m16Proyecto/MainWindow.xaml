@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="137,62,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="ALEXIS" HorizontalAlignment="Left" Margin="184,88,0,0" VerticalAlignment="Top" Width="92" Height="45" FontSize="16" FontFamily="Segoe UI Black"/>
 
     </Grid>
 </Window>
