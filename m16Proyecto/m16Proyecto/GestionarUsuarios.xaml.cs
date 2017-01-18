@@ -10,38 +10,40 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace m16Proyecto
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for GestionarUsuarios.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class GestionarUsuarios : Window
     {
-        public MainWindow()
+        public GestionarUsuarios()
         {
             InitializeComponent();
         }
 
-        private void botonAlexis_Click(object sender, RoutedEventArgs e)
+
+        private void botonAgregar_Click(object sender, RoutedEventArgs e)
         {
             RegistrarUsuario register = new RegistrarUsuario();
             register.Show();
         }
 
-
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void botonEliminar_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void MenuGestionUsuarios_Click(object sender, RoutedEventArgs e)
+        private void botonConsultar_Click(object sender, RoutedEventArgs e)
         {
-            GestionarUsuarios gusuarios = new GestionarUsuarios();
-            gusuarios.Show();
-            
+
+        }
+
+        private void botonVolver_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
