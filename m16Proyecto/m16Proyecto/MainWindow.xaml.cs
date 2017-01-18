@@ -24,5 +24,16 @@ namespace m16Proyecto
         {
             InitializeComponent();
         }
+
+        private void botonAlexis_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrarUsuario register = new RegistrarUsuario();
+            register.Show();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -26,7 +26,7 @@ namespace m16Proyecto
 
         private void botonSalir_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
