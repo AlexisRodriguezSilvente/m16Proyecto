@@ -35,5 +35,10 @@ namespace m16Proyecto
         {
 
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
