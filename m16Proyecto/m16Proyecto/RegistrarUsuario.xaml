@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:m16Proyecto"
         mc:Ignorable="d"
-        Title="RegistrarUsuario" Height="300" Width="425.333">
+        Title="RegistrarUsuario" Height="300" Width="457.333">
     <Grid>
         <Button x:Name="button" Content="Salir" HorizontalAlignment="Left" Margin="173,219,0,0" VerticalAlignment="Top" Width="75" Click="botonSalir_Click"/>
         <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top"/>
@@ -19,6 +19,17 @@
         <Label x:Name="label8" Content="Usuario" HorizontalAlignment="Left" Margin="20,139,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label9" Content="Contraseña" HorizontalAlignment="Left" Margin="204,140,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label10" Content="Categoria" HorizontalAlignment="Left" Margin="20,166,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="109,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" Margin="109,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="23" Margin="109,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="23" Margin="109,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1_Copy3" HorizontalAlignment="Left" Height="23" Margin="109,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox1_Copy4" HorizontalAlignment="Left" Height="23" Margin="109,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="308,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="308,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="308,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" Margin="308,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
 
     </Grid>
 </Window>
