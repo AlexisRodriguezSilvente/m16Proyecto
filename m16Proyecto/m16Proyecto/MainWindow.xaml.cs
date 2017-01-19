@@ -25,10 +25,11 @@ namespace m16Proyecto
             InitializeComponent();
         }
 
-        private void botonAlexis_Click(object sender, RoutedEventArgs e)
+        private void botonUsuarios_Click(object sender, RoutedEventArgs e)
         {
-            RegistrarUsuario register = new RegistrarUsuario();
-            register.Show();
+            GestionarUsuarios gusuarios = new GestionarUsuarios();
+            gusuarios.Show();
+            
         }
 
 
@@ -42,6 +43,11 @@ namespace m16Proyecto
             GestionarUsuarios gusuarios = new GestionarUsuarios();
             gusuarios.Show();
             
+        }
+
+        private void botonInventario_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -7,12 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="ALEXIS" HorizontalAlignment="Left" Margin="202,80,0,0" VerticalAlignment="Top" Width="92" Height="45" FontSize="16" FontFamily="Segoe UI Black" Click="botonAlexis_Click" />
+        <Button x:Name="button" Content="USUARIOS" HorizontalAlignment="Left" Margin="44,39,0,0" VerticalAlignment="Top" Width="92" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonUsuarios_Click" />
         <Menu x:Name="menu" HorizontalAlignment="Left" Height="16" Margin="0,1,0,0" VerticalAlignment="Top" Width="517">
             <MenuItem  Width="64" Height="17" Header="Usuarios">
                 <MenuItem Height="17" Header="Gestionar Usuarios"  Margin="-6,0,-23,0" RenderTransformOrigin="0.482,0.549" Click="MenuGestionUsuarios_Click"/>
             </MenuItem>
-        </Menu>     
+        </Menu>
+        <Button x:Name="button1" Content="INVENTARIO" HorizontalAlignment="Left" Margin="80,168,0,0" VerticalAlignment="Top" Width="92" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonInventario_Click"/>
 
     </Grid>
 </Window>
