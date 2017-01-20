@@ -55,12 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EliminarUsuarios.xaml.cs">
+      <DependentUpon>EliminarUsuarios.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GestionarUsuarios.xaml.cs">
       <DependentUpon>GestionarUsuarios.xaml</DependentUpon>
     </Compile>
     <Compile Include="RegistrarUsuario.xaml.cs">
       <DependentUpon>RegistrarUsuario.xaml</DependentUpon>
     </Compile>
+    <Page Include="EliminarUsuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GestionarUsuarios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

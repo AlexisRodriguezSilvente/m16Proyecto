@@ -1,0 +1,23 @@
+﻿<Window x:Class="m16Proyecto.EliminarUsuarios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:m16Proyecto"
+        mc:Ignorable="d"
+        Title="EliminarUsuarios" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label4" Content="DNI" HorizontalAlignment="Left" Margin="20,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.495,0.513"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="136,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Primer Apellido" HorizontalAlignment="Left" Margin="20,61,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Segundo Apellido" HorizontalAlignment="Left" Margin="20,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Correo" HorizontalAlignment="Left" Margin="20,114,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="136,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="136,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="136,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" Margin="136,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
+        <Button x:Name="button" Content="Volver" HorizontalAlignment="Left" Margin="66,235,0,0" VerticalAlignment="Top" Width="75" Click="botonVolver_Click"/>
+
+    </Grid>
+</Window>
