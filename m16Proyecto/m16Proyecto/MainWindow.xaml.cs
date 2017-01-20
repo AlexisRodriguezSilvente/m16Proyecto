@@ -49,5 +49,25 @@ namespace m16Proyecto
         {
 
         }
+
+        private void botonFinanzas_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonVentas_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonCompras_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonProveedores_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
