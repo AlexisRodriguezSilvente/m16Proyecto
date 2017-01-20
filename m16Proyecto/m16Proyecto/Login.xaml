@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="Login" Height="300" Width="300">
     <Grid>
-        
+        <Button x:Name="button" Content="Acceder" HorizontalAlignment="Left" Margin="109,192,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,146,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="109,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.198,-0.158"/>
+        <Label x:Name="label" Content="Contraseña :" HorizontalAlignment="Left" Margin="27,146,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="DNI:" HorizontalAlignment="Left" Margin="46,104,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
