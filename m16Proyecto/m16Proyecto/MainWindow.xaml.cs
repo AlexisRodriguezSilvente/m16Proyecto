@@ -1,4 +1,5 @@
-﻿using System;
+﻿using m16Proyecto.mysql;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,6 +69,12 @@ namespace m16Proyecto
         private void botonProveedores_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void buttonConectar_Click(object sender, RoutedEventArgs e)
+        {
+            Conexion.obtenerConexion();
+            MessageBox.Show("LA CONEXION ESTA DE PUTA MADRE TIO ");
         }
     }
 }

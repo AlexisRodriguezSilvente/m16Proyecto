@@ -11,9 +11,10 @@ namespace m16Proyecto.mysql
     {
         public static MySqlConnection obtenerConexion()
         {
-            MySqlConnection Conexion = new MySqlConnection("server=127.0.0.1;database=pruebalogin;Uid=root;pwd=4fr0dt4.");
+            MySqlConnection Conexion = new MySqlConnection("server=127.0.0.1;database=pruebalogin;Uid=root;pwd=4fr0d1t4.");
             Conexion.Open();
             return Conexion;
+            Conexion.Close();
         }
     }
 }

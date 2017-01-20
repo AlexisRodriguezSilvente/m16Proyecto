@@ -18,6 +18,7 @@
         <Button x:Name="button3" Content="VENTAS" HorizontalAlignment="Left" Margin="286,99,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonVentas_Click"/>
         <Button x:Name="button4" Content="COMPRAS" HorizontalAlignment="Left" Margin="287,165,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonCompras_Click"/>
         <Button x:Name="button5" Content="FINANZAS" HorizontalAlignment="Left" Margin="284,39,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonFinanzas_Click"/>
+        <Button x:Name="button6" Content="conectar" HorizontalAlignment="Left" Margin="207,246,0,0" VerticalAlignment="Top" Width="75" Click="buttonConectar_Click"/>
 
     </Grid>
 </Window>
