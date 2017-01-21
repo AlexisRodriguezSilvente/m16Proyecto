@@ -8,7 +8,7 @@ namespace m16Proyecto.mysql
 {
     public class usuario
     {
-        public int idUsuario { get; set; }
+        public string idUsuario { get; set; }
         public string nombre { get; set; }
         public string primerApellido { get; set; }
         public string segundoApellido { get; set; }
@@ -18,12 +18,12 @@ namespace m16Proyecto.mysql
         public string direccion { get; set; }
         public string ciudad { get; set; }
         public string contraseña { get; set; }
-        public int categoria { get; set; }
+        public string categoria { get; set; }
         public usuario() { }
 
-        public usuario(int idUsuario, string nombre, string primerApellido, string segundoApellido,
+        public usuario(string idUsuario, string nombre, string primerApellido, string segundoApellido,
                        string dni, string correo, string telefono, string direccion,
-                       string ciudad, string contraseña, int categoria)
+                       string ciudad, string contraseña, string categoria)
         {
             this.idUsuario = idUsuario;
             this.nombre = nombre;
