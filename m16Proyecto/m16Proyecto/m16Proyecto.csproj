@@ -63,6 +63,8 @@
       <DependentUpon>GestionarUsuarios.xaml</DependentUpon>
     </Compile>
     <Compile Include="mysql\Conexion.cs" />
+    <Compile Include="mysql\funciones.cs" />
+    <Compile Include="mysql\usuario.cs" />
     <Compile Include="RegistrarUsuario.xaml.cs">
       <DependentUpon>RegistrarUsuario.xaml</DependentUpon>
     </Compile>
