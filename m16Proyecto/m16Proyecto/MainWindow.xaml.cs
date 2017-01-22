@@ -1,5 +1,4 @@
-﻿using m16Proyecto.mysql;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,6 +49,8 @@ namespace m16Proyecto
         {
 
         }
+<<<<<<< HEAD
+=======
 
         private void botonFinanzas_Click(object sender, RoutedEventArgs e)
         {
@@ -73,8 +74,9 @@ namespace m16Proyecto
 
         private void buttonConectar_Click(object sender, RoutedEventArgs e)
         {
-            //Conexion.obtenerConexion();
+            Conexion.obtenerConexion();
             MessageBox.Show("LA CONEXION ESTA DE PUTA MADRE TIO ");
         }
+>>>>>>> parent of a8e1b40... guardar
     }
 }

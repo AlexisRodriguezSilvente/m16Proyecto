@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="GestionarUsuarios" Height="300" Width="300">
     <Grid>
-        <Button x:Name="button" Content="Agregar" HorizontalAlignment="Left" Margin="27,42,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonAgregar_Click"/>
-        <Button x:Name="button1" Content="Eliminar" HorizontalAlignment="Left" Margin="27,92,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonEliminar_Click"/>
-        <Button x:Name="button2" Content="Consultar" HorizontalAlignment="Left" Margin="27,142,0,0" VerticalAlignment="Top" Width="108" Height="45" FontSize="14" FontFamily="Segoe UI Black" Click="botonConsultar_Click"/>
+        <Button x:Name="button" Content="Agregar" HorizontalAlignment="Left" Margin="32,69,0,0" VerticalAlignment="Top" Width="75" Click="botonAgregar_Click"/>
+        <Button x:Name="button1" Content="Eliminar" HorizontalAlignment="Left" Margin="181,69,0,0" VerticalAlignment="Top" Width="75" Click="botonEliminar_Click"/>
+        <Button x:Name="button2" Content="Consultar" HorizontalAlignment="Left" Margin="110,119,0,0" VerticalAlignment="Top" Width="75" Click="botonConsultar_Click"/>
         <Button x:Name="button3" Content="Volver" HorizontalAlignment="Left" Margin="198,229,0,0" VerticalAlignment="Top" Width="75" Click="botonVolver_Click"/>
 
     </Grid>
