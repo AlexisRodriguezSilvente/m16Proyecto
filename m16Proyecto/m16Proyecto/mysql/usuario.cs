@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,7 +37,32 @@ namespace m16Proyecto.mysql
             this.ciudad = ciudad;
             this.contraseña = contraseña;
             this.categoria = categoria;
+        }
+
+        public static string AgregarUsuario()
+        {
 
         }
+        public static string BorrarUsuario()
+        {
+
+        }
+        public static string ModificarUsuario()
+        {
+
+        }
+        public static string ConsultarUsuario()
+        {
+
+        }
+        public static IList<usuario> BuscarUsuario(MySqlConnection connection, string dni , string nombre , 
+                                                    string primerApellido, string segundoApellido, string correo)
+        {
+            List<usuario> lista = new List<usuario>;
+
+            MySqlCommand comando = new MySqlCommand(String.Format("SELECT dni, nombre, primerApellido, segundoApellido, correo FROM usuarios WHERE dni LIKE ('%{0}%') AND nombre LIKE ('%{1}%') AND primerApellido LIKE ('%{2}%') AND segundoApellido LIKE ('%{3}%') AND correo LIKE ('%{4}%')", dni , nombre , primerApellido, segundoApellido , correo),connection);
+            
+        }
+
     }
 }
