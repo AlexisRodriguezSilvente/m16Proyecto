@@ -20,7 +20,7 @@
             <RowDefinition Height = "*"/>
             <RowDefinition Height = "*"/>
             <RowDefinition Height = "*"/>
-
+            <RowDefinition Height = "*"/>
         </Grid.RowDefinitions>
 
         <Label Content="Registro de Usuarios" FontSize="15" FontWeight = "Bold" Grid.Column = "0" Grid.Row = "0"/>
