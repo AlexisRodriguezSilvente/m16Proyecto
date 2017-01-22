@@ -5,33 +5,77 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:m16Proyecto"
         mc:Ignorable="d"
-        Title="RegistrarUsuario" Height="300" Width="457.333">
-    <Grid>
-        <Button x:Name="button" Content="Salir" HorizontalAlignment="Left" Margin="173,219,0,0" VerticalAlignment="Top" Width="75" Click="botonSalir_Click"/>
-        <Label x:Name="label1" Content="Nombre" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label2" Content="Primer Apellido" HorizontalAlignment="Left" Margin="20,60,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label3" Content="Segundo Apellido" HorizontalAlignment="Left" Margin="204,60,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label4" Content="DNI" HorizontalAlignment="Left" Margin="20,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.495,0.513"/>
-        <Label x:Name="label5" Content="Correo" HorizontalAlignment="Left" Margin="20,86,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label6" Content="Telefono" HorizontalAlignment="Left" Margin="20,112,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label" Content="Direccion" HorizontalAlignment="Left" Margin="204,86,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label7" Content="Población" HorizontalAlignment="Left" Margin="204,113,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label8" Content="Usuario" HorizontalAlignment="Left" Margin="20,139,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label9" Content="Contraseña" HorizontalAlignment="Left" Margin="204,140,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label10" Content="Categoria" HorizontalAlignment="Left" Margin="20,166,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="109,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="23" Margin="109,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1_Copy1" HorizontalAlignment="Left" Height="23" Margin="109,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1_Copy2" HorizontalAlignment="Left" Height="23" Margin="109,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1_Copy3" HorizontalAlignment="Left" Height="23" Margin="109,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox1_Copy4" HorizontalAlignment="Left" Height="23" Margin="109,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="23" Margin="308,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="23" Margin="308,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Height="23" Margin="308,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Height="23" Margin="308,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="89"/>
-        <Button x:Name="button1" Content="Registrar" HorizontalAlignment="Left" Margin="66,214,0,0" VerticalAlignment="Top" Width="75" Click="botonRegistrar_Click"/>
+        Title="RegistrarUsuario" Height="306.666" Width="560">
+    <Grid x:Name="FormLayoutGrid" Background="LightGray" Margin="0,0,0,21">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
+            <RowDefinition Height = "*"/>
 
+        </Grid.RowDefinitions>
+
+        <Label Content="Registro de Usuarios" FontSize="15" FontWeight = "Bold" Grid.Column = "0" Grid.Row = "0"/>
+
+        <StackPanel Grid.Column = "1" Grid.Row = "0" Orientation = "Horizontal">
+            <Label  Content="idUsuario" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtidUsuario" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "0" Grid.Row = "1" Orientation = "Horizontal">
+            <Label  Content="Nombre" VerticalAlignment = "Center" Width = "90"/>
+            <TextBox Name="txtNombre" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "1" Orientation = "Horizontal">
+            <Label  Content="DNI" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtDNI" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+
+        <StackPanel Grid.Column = "0" Grid.Row = "2" Orientation = "Horizontal">
+            <Label  Content="primerApellido" VerticalAlignment = "Center" Width = "90"/>
+            <TextBox Name="txtprimerApellido" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "2" Orientation = "Horizontal">
+            <Label  Content="segundoApellido" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtsegundoApellido" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "0" Grid.Row = "3" Orientation = "Horizontal">
+            <Label  Content="correo" VerticalAlignment = "Center" Width = "90"/>
+            <TextBox Name="txtCorreo" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "3" Orientation = "Horizontal">
+            <Label  Content="telefono" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtTelefono" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "0" Grid.Row = "4" Orientation = "Horizontal">
+            <Label  Content="Direccion" VerticalAlignment = "Center" Width = "90"/>
+            <TextBox Name="txt" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "4" Orientation = "Horizontal">
+            <Label  Content="Poblacion" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtPoblacion" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "0" Grid.Row = "5" Orientation = "Horizontal">
+            <Label  Content="Contraseña" VerticalAlignment = "Center" Width = "90"/>
+            <PasswordBox Name="passwordBox" VerticalAlignment="Center" Width="100" Password=""></PasswordBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "5" Orientation = "Horizontal">
+            <Label  Content="Categoria" VerticalAlignment = "Center" Width = "100"/>
+            <TextBox Name="txtCategoria" Text="" VerticalAlignment = "Center" Width = "100"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Column = "0" Grid.Row = "7" Orientation = "Horizontal">
+            <Button Name="button1" Content="Registrar" VerticalAlignment="Center"  Click="botonRegistrar_Click" Margin="0,6,0,7" Width="100"/>
+        </StackPanel>
+        <StackPanel Grid.Column = "1" Grid.Row = "7" Orientation = "Horizontal">
+            <Button x:Name="button" Content="Salir"  Click="botonSalir_Click" Margin="0,0,0,6" Width="100" Height="20" VerticalAlignment="Bottom"/>
+        </StackPanel>
 
     </Grid>
 </Window>
