@@ -35,7 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -56,22 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="EliminarUsuarios.xaml.cs">
-      <DependentUpon>EliminarUsuarios.xaml</DependentUpon>
-    </Compile>
     <Compile Include="GestionarUsuarios.xaml.cs">
       <DependentUpon>GestionarUsuarios.xaml</DependentUpon>
     </Compile>
-    <Compile Include="mysql\Conexion.cs" />
-    <Compile Include="mysql\funciones.cs" />
-    <Compile Include="mysql\usuario.cs" />
     <Compile Include="RegistrarUsuario.xaml.cs">
       <DependentUpon>RegistrarUsuario.xaml</DependentUpon>
     </Compile>
-    <Page Include="EliminarUsuarios.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="GestionarUsuarios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -33,8 +33,7 @@ namespace m16Proyecto
 
         private void botonEliminar_Click(object sender, RoutedEventArgs e)
         {
-            EliminarUsuarios delRegister = new EliminarUsuarios();
-            delRegister.Show();
+
         }
 
         private void botonConsultar_Click(object sender, RoutedEventArgs e)
