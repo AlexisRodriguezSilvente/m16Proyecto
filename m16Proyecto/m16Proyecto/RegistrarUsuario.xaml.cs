@@ -32,7 +32,7 @@ namespace m16Proyecto
 
         private void botonRegistrar_Click(object sender, RoutedEventArgs e)
         {
-            usuario agregar = new usuario();
+           /* usuario agregar = new usuario();
             agregar.idUsuario = txtIdUsuario.Text();
             agregar.nombre = txtNombre.Text();
             agregar.primerApellido = txtPrimerApellido.Text();
@@ -52,7 +52,7 @@ namespace m16Proyecto
             else
             {
                 MessageBox.Show("ERROR");
-            }
+            }*/
 
         }
     }
