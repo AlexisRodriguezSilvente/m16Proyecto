@@ -49,5 +49,34 @@ namespace m16Proyecto
         {
 
         }
+<<<<<<< HEAD
+=======
+
+        private void botonFinanzas_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonVentas_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonCompras_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonProveedores_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void buttonConectar_Click(object sender, RoutedEventArgs e)
+        {
+            Conexion.obtenerConexion();
+            MessageBox.Show("LA CONEXION ESTA DE PUTA MADRE TIO ");
+        }
+>>>>>>> parent of a8e1b40... guardar
     }
 }
